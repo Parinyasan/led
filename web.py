@@ -319,7 +319,8 @@ gb.configure_column(
     cellEditor='agLargeTextCellEditor',
     warpText=True,
     autoHeight=True,
-    cellEditorPopup=True
+    cellEditorPopup=True,
+    cellStyle={'white-space': 'normal', 'word-break': 'break-word'}
 )
 gb.configure_grid_options(
     rowHeight=100  # Enable auto row height
